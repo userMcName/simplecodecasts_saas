@@ -1,0 +1,14 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+//gradient from http:UIgradients.com
+body {
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#85D8CE), to(#085078));
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);
+    background: -moz-linear-gradient(to right, #85D8CE, #085078);
+    background: -o-linear-gradient(to right, #85D8CE, #085078);
+    background: linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
