@@ -37,10 +37,10 @@ gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-# Use devise for use auth
+# Use devise for user auth
 gem 'devise', '3.4.1'
 
-# Use stripe for processing payments
+# Use stripe for handling payments
 gem 'stripe', '1.16.1'
 
 # Use figaro to hide secret keys
